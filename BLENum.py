@@ -571,14 +571,14 @@ try:
     |   {SENDING DATA}                                            |
     |       [1] - Specified Message                               |
     |       [2] - Repeatedly Send Specified Message               |
-    |       [3] - Random Packets                                  |
+    |       [3] - Random Message                                  |
     |                                                             |
     |   {RESPONSE HARVESTING}                                     |
     |       [4] - Silence                                         |
     |       [5] - Mirror (Recommended)                            |
     |                                                             |                                                                                                              
     |   {MISCELLANEOUS}                                           |
-    |       [6] - Invalid Packets                                 |
+    |       [6] - Invalid Message                                 |
     |       [7] - Send Buffer Of Specified Length                 |
     |       [8] - Repeatedly Send Buffer Of Specified Length      |
     |                                                             |
