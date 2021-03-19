@@ -57,9 +57,17 @@ try:
         print("[-] Sys Dependency Not Met")
         canStart = 0
     if canStart == 0:
-        print("[/] - Additional Dependencies Needed To Run This Program")
-        input("Press Any Key To Exit : ")
-        exit()
+        print("[/] - Additional Dependencies Needed To Run This Program.")
+        startAnyways = input("Start Anyways? [y/n] : ")
+        if startAnyways.lower() == 'n' or startAnyways.lower() == 'no':    
+            input("Press Any Key To Exit : ")
+            exit()
+        elif startAnyways.lower() == 'y' or startAnyways.lower() == 'yes':
+            print("OK. Starting Anyway\n")
+        else:
+            print("Invalid Option. Defaulting To No.")
+            input("Press Any Key To Exit : ")
+            exit()
     print(
     '''
     ___________________________________________________________________________________
@@ -93,7 +101,7 @@ try:
     def portScan():
         '''
         Re-making the socket object after every use slows the program down, and it might lead to many open connections, but it works.
-        Please note that this causes a DOS on S08 Bluetooth speakers.
+        Please note that this causes a DOS on some speakers.
         ''' 
         mac = input("MAC Address To Scan : ")
         print("Starting Port Scan || Range : 0,100")
