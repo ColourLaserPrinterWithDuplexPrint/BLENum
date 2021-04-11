@@ -100,8 +100,7 @@ try:
         print("\n")
     def portScan():
         '''
-        Re-making the socket object after every use slows the program down, and it might lead to many open connections, but it works.
-        Please note that this causes a DOS on some speakers.
+        Please note that this causes a DOS on some devices.
         ''' 
         mac = input("MAC Address To Scan : ")
         print("Starting Port Scan || Range : 0,100")
