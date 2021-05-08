@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 '''
 Version : 1.0
 Required Libraries (all default libraries) : Socket, Time, Random, Base64, Sys
