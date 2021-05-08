@@ -580,7 +580,7 @@ try:
     |       [3] - Random Message                                  |
     |                                                             |
     |   {RESPONSE HARVESTING}                                     |
-    |       [4] - Silence                                         |
+    |       [4] - Silence (Don't Send Any Data)                   |
     |       [5] - Mirror (Recommended)                            |
     |                                                             |                                                                                                              
     |   {MISCELLANEOUS}                                           |
@@ -588,7 +588,7 @@ try:
     |       [7] - Send Buffer Of Specified Length                 |
     |       [8] - Repeatedly Send Buffer Of Specified Length      |
     |                                                             |
-    |   {BRUTE-FORCE}                                             |
+    |   {INCREMENTAL}                                             |
     |       [9] - Incremental Base10                              |
     |       [10] - Incremenetal Ascii                             |
     |                                                             |
