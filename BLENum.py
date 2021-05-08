@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Version : 1.0
 Required Libraries (all default libraries) : Socket, Time, Random, Base64, Sys
@@ -9,7 +10,6 @@ Base64 : Generating Invalid Packets
 Sys    : Checking Operating System
 OS     : Coloring For Windows
 '''
-#!/usr/bin/env python3
 try:
     timeOutTime = 10
     silenceTimeOut = 999999999
